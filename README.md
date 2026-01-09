@@ -1,4 +1,4 @@
-# SuperKart Sales Forecasting Project
+# SuperKart Sales Forecasting
 
 ## Business Problem
 SuperKart, a retail chain, aims to accurately forecast sales revenue for its outlets for the upcoming quarter to optimize inventory management and inform regional sales strategies. This project focuses on building and deploying a robust forecasting solution integrated into SuperKart’s decision-making systems.
@@ -21,8 +21,9 @@ The dataset contains attributes of various products and stores, including:
 ## Approach
 The project followed a structured approach:
 1.  **Data Loading & Overview**: Loaded and inspected the dataset, checking for duplicates and missing values.
-2.  **Exploratory Data Analysis (EDA)**: Performed univariate and bivariate analysis to understand data distributions, relationships between features, and revenue generation patterns across different product types, sugar content, and store characteristics. Key observations included the dominance of 'Fruits and Vegetables' and 'Snack Foods' in revenue, and 'OUT004' being the highest-performing store.
-3.  **Data Preprocessing**: 
+2.  **Exploratory Data Analysis (EDA)**: Performed univariate and bivariate analysis to understand data distributions, relationships between features, and revenue generation patterns across different product types, sugar content, and store characteristics.
+   -Key observations included the dominance of 'Fruits and Vegetables' and 'Snack Foods' in revenue, and 'OUT004' being the highest-performing store.
+4.  **Data Preprocessing**: 
     - Corrected inconsistencies in `Product_Sugar_Content` (replaced 'reg' with 'Regular').
     - Extracted `Product_Id_char` from `Product_Id` to categorize products (FD, NC, DR).
     - Calculated `Store_Age_Years` from `Store_Establishment_Year`.
@@ -30,10 +31,10 @@ The project followed a structured approach:
     - Dropped irrelevant columns (`Product_Id`, `Product_Type`, `Store_Id`, `Store_Establishment_Year`).
     - Split the data into training and testing sets (70:30 ratio).
     - Applied `OneHotEncoder` to categorical features using `make_column_transformer` for preprocessing.
-4.  **Model Building**: Built and evaluated two ensemble regression models:
+5.  **Model Building**: Built and evaluated two ensemble regression models:
     - **RandomForestRegressor**
     - **XGBoostRegressor**
-5.  **Hyperparameter Tuning**: Used `GridSearchCV` to tune the hyperparameters for both RandomForest and XGBoost models, optimizing for R-squared score.
+6.  **Hyperparameter Tuning**: Used `GridSearchCV` to tune the hyperparameters for both RandomForest and XGBoost models, optimizing for R-squared score.
 
 ## Model Serialization
 The final chosen model, the untuned `RandomForestRegressor`, was serialized using `joblib` and saved to `backend_files/final_sales_model.joblib`. This allows for easy loading and deployment of the trained model without retraining.
