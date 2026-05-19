@@ -14,7 +14,7 @@ This repository demonstrates my ability to take a business problem and turn it i
 ## 🧠 Demo
 
 
-<center> <img src="notebooks/Frontend.png" alt="System Design Diagram" width="900"></center>
+<center> <img src="screenshots/Frontend.png" alt="System Design Diagram" width="900"></center>
 
 ---
 
