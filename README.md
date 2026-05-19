@@ -1,8 +1,8 @@
-# SuperKart Sales Forecasting
+# 🚀 SuperKart Sales Forecasting
 
 An end-to-end machine learning project for forecasting retail product-store sales for the upcoming quarter.
 
-## Overview
+## 📊 Overview
 
 Retail businesses depend on accurate sales forecasts to make smarter decisions around inventory planning, store operations, and regional growth strategy. In this project, I built a machine learning solution that predicts **quarterly sales for products across different SuperKart outlets** using historical store and product attributes.
 
@@ -12,7 +12,7 @@ This repository demonstrates my ability to take a business problem and turn it i
 
 ---
 
-## Business Problem
+## ✍️ Business Problem
 
 SuperKart operates a network of retail outlets and needs a reliable way to estimate future sales at the product-store level. Without accurate forecasts, the business risks:
 
@@ -26,7 +26,7 @@ The goal of this project was to build a forecasting system that helps stakeholde
 
 ---
 
-## Project Objective
+## 🤖 Project Objective
 
 The objective was to develop a machine learning model that predicts `Product_Store_Sales_Total` based on product and store-level features such as:
 
@@ -48,7 +48,7 @@ The final solution was packaged for practical use through:
 
 ---
 
-## What I Built
+## 📌 What I Built
 
 This project includes:
 
@@ -63,7 +63,7 @@ This project includes:
 
 ---
 
-## End-to-End Project Flow
+## 📈 End-to-End Project Flow
 
 ## 1. Problem Framing
 
@@ -222,7 +222,7 @@ This architecture improves modularity and makes the system easier to test, deplo
 
 ---
 
-## Results
+## 📌 Results
 
 The final models delivered solid and consistent performance on the test set.
 
@@ -230,7 +230,7 @@ The final models delivered solid and consistent performance on the test set.
 - **R-squared:** ~0.668
 - **MAPE:** ~18.7%
 
-### Interpretation
+### 💡 Interpretation
 - The model explains about **66.8% of the variance** in sales
 - On average, predictions differ from actual sales by roughly **18.7%**
 
@@ -238,7 +238,7 @@ For a retail forecasting use case based on structured historical features, this 
 
 ---
 
-## Business Insights Generated
+## 💡 Business Insights Generated
 
 Beyond prediction, the analysis revealed useful business takeaways:
 
@@ -252,7 +252,7 @@ This is an important part of the project because the work is not just about mode
 
 ---
 
-## Tech Stack
+## 🧠 Tech Stack
 
 ### Languages and libraries
 - Python
@@ -271,7 +271,7 @@ This is an important part of the project because the work is not just about mode
 
 ---
 
-## Repository Structure
+## ⚡ Repository Structure
 
 ```bash
 sales-forecast/
