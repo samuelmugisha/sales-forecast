@@ -11,6 +11,13 @@ The project goes beyond model training. It covers the full workflow from **data 
 This repository demonstrates my ability to take a business problem and turn it into a production-oriented data product.
 
 ---
+## 🧠 Demo
+
+
+<center> <img src="notebooks/Frontend.png" alt="System Design Diagram" width="900"></center>
+
+---
+
 
 ## ✍️ Business Problem
 
