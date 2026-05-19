@@ -288,3 +288,5 @@ sales-forecast/
 ├── notebooks/          # Exploratory analysis, preprocessing, and modeling notebooks
 ├── screenshots/        # UI or results screenshots
 └── README.md
+
+[Author: Samuel Mugisha D.C.]
