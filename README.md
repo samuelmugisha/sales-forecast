@@ -289,5 +289,7 @@ sales-forecast/
 ├── screenshots/        # UI or results screenshots
 └── README.md
 
-## 📰 Author
+---
+
+## 👤 Author 
 [Samuel Mugisha D.C | ML Engineer | AI Engineer](https://www.linkedin.com/in/samuelmugishadc/)
