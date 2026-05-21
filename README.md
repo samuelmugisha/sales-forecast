@@ -288,7 +288,7 @@ sales-forecast/
 ├── notebooks/          # Exploratory analysis, preprocessing, and modeling notebooks
 ├── screenshots/        # UI or results screenshots
 └── README.md
-
+```
 ---
 ## 👤 Author 
 [Samuel Mugisha D.C | ML Engineer | AI Engineer](https://www.linkedin.com/in/samuelmugishadc/)
